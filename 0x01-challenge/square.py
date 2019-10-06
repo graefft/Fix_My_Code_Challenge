@@ -1,9 +1,11 @@
 #!/usr/bin/python3
-'''Makes a sqaure'''
+"""
+Makes a square
+"""
 
 
 class Square:
-    '''Square class'''
+    '''Square class creation'''
 
     def __init__(self, *args, **kwargs):
         '''makes new square instance'''
