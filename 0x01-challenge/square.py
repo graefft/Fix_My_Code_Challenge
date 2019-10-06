@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 '''Makes a sqaure'''
 
+
 class square():
     '''Square class'''
 
