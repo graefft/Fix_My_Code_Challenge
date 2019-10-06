@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-
+'''Makes a sqaure'''
 
 class square():
-
-    width = 0
+    '''Square class'''
 
     def __init__(self, *args, **kwargs):
         for key, value in kwargs.items():
