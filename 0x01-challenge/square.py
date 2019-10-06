@@ -2,11 +2,13 @@
 '''Makes a sqaure'''
 
 
-class square():
+class square:
     '''Square class'''
 
     def __init__(self, *args, **kwargs):
         '''makes new square instance'''
+        self.width = 0
+        self.height = 0
         for key, value in kwargs.items():
             setattr(self, key, value)
 
